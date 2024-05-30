@@ -1,0 +1,179 @@
+Kasen Huang Haoran
+body {  
+     
+    padding-bottom: 100px; 
+    background-color: #81baf7;
+}  
+
+.logo{  
+    text-align: center;  
+    margin-bottom: 20px;  
+}  
+  
+ 
+.header-content {  
+    text-align: center;  
+    background-color: rgb(109, 109, 241);  
+    padding: 20px 0;  
+    color: rgb(222, 245, 119);  
+    font-family: 'Arial Black', Gadget, sans-serif;  
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);  
+}  
+  
+
+ 
+.nav-links {  
+    list-style-type: none;  
+    margin: 0;  
+    padding: 0;  
+    display: flex;  
+    justify-content: center;  
+}  
+  
+ 
+.nav-links li a {  
+    display: block;  
+    padding: 10px 20px;  
+    text-decoration: none;  
+    color: #333;  
+    transition: color 0.3s, border-bottom 0.3s;  
+}  
+  
+ 
+.nav-links li a:hover {  
+    color: #eed140;  
+    border-bottom: 2px solid #007bff;  
+}
+.fixed-footer {  
+     
+    position: fixed;  
+    bottom: 0;  
+    left: 0;  
+    width: 100%;  
+    background-color: #333;  
+    color: #fff;  
+    padding: 15px;  
+    box-sizing: border-box;  
+    border-top: 3px solid #ff6347;  
+    font-family: 'Arial', sans-serif;  
+    font-size: 14px;  
+    text-align: center;  
+    z-index: 999;  
+}  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.image-row img {  
+    width: calc(50% - 5px); 
+    height: auto; 
+    
+    border: 1px solid #ccc; 
+    transition: opacity 0.3s ease; 
+}  
+  
+.image-row img:hover {  
+    opacity: 0.6;  
+}  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.image-container {  
+    position: relative; 
+    display: inline-block; 
+}  
+  
+.image-container img {  
+    display: block; 
+    width: 100%; 
+    height: auto; 
+}  
+  
+.button-on-image {  
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    padding: 10px 20px; 
+    background-color: #ff0000; 
+    color: #ffffff; 
+    text-decoration: none; 
+    border-radius: 4px;   
+    transition: background-color 0.3s ease;  
+    z-index: 1; 
+}  
+  
+.button-on-image:hover {  
+    background-color: #ff8000; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container {  
+    display: flex;  
+    justify-content: center;
+    align-items: center;     
+    height: 100vh;         
+}  
+  
+
+.center-container {  
+    display: flex;  
+    justify-content: center;   
+    align-items: flex-start; 
+    margin-top: 20px;       
+}  
+  
+.image-column {  
+    margin-left: 10px; 
+}  
+  
+.image-column img {  
+    max-width: 100%; 
+    height: auto;   
+}  
+  
+
+
+
+
+
