@@ -1,65 +1,66 @@
 /*Kasen Huang Haoran*/
-body {  
-     
-    padding-bottom: 100px; 
-    background-color: #81baf7;
-}  
-
-.logo{  
-    text-align: center;  
-    margin-bottom: 20px;  
+/* Adds 100px padding to the bottom of the body to prevent content overlap with the footer */  
+body {    
+    padding-bottom: 100px;   
+    background-color: #83b8f1;  
+}    
+  
+/* Centers the text and adds 20px margin to the bottom of the logo container */  
+.logo{    
+    text-align: center;    
+    margin-bottom: 20px;    
+}    
+  
+/* Centers the text and applies styling to the header content */  
+.header-content {    
+    text-align: center;    
+    background-color: rgb(109, 109, 241);    
+    padding: 20px 0;    
+    color: rgb(222, 245, 119);    
+    font-family: 'Arial Black', Gadget, sans-serif;    
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);    
+}    
+  
+/* Removes list styling and applies flexbox layout to the navigation links */  
+.nav-links {    
+    list-style-type: none;    
+    margin: 0;    
+    padding: 0;    
+    display: flex;    
+    justify-content: center;    
+}    
+  
+/* Styles the anchor tags inside the navigation list items */  
+.nav-links li a {    
+    display: block;    
+    padding: 10px 20px;    
+    text-decoration: none;    
+    color: #333;    
+    transition: color 0.3s, border-bottom 0.3s;    
+}    
+  
+/* Adds hover styling to the anchor tags inside the navigation list items */  
+.nav-links li a:hover {    
+    color: #eed140;    
+    border-bottom: 2px solid #007bff;    
 }  
   
- 
-.header-content {  
-    text-align: center;  
-    background-color: rgb(109, 109, 241);  
-    padding: 20px 0;  
-    color: rgb(222, 245, 119);  
-    font-family: 'Arial Black', Gadget, sans-serif;  
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);  
-}  
-  
-
- 
-.nav-links {  
-    list-style-type: none;  
-    margin: 0;  
-    padding: 0;  
-    display: flex;  
-    justify-content: center;  
-}  
-  
- 
-.nav-links li a {  
-    display: block;  
-    padding: 10px 20px;  
-    text-decoration: none;  
-    color: #333;  
-    transition: color 0.3s, border-bottom 0.3s;  
-}  
-  
- 
-.nav-links li a:hover {  
-    color: #eed140;  
-    border-bottom: 2px solid #007bff;  
+/* Creates a fixed footer at the bottom of the page */  
+.fixed-footer {    
+    position: fixed;    
+    bottom: 0;    
+    left: 0;    
+    width: 100%;    
+    background-color: #333;    
+    color: #fff;    
+    padding: 15px;    
+    box-sizing: border-box;    
+    border-top: 3px solid #ff6347;    
+    font-family: 'Arial', sans-serif;    
+    font-size: 14px;    
+    text-align: center;    
+    z-index: 999;    
 }
-.fixed-footer {  
-     
-    position: fixed;  
-    bottom: 0;  
-    left: 0;  
-    width: 100%;  
-    background-color: #333;  
-    color: #fff;  
-    padding: 15px;  
-    box-sizing: border-box;  
-    border-top: 3px solid #ff6347;  
-    font-family: 'Arial', sans-serif;  
-    font-size: 14px;  
-    text-align: center;  
-    z-index: 999;  
-}  
 
 
 
